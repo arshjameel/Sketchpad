@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    color: #231710;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #b68121;
+	padding: 30px;
+	gap: 40px;
+}
+
+.title {
+    font-size: 64px;
+}
+
+.credit {
+    font-size: 24px;
+}
+
+.gridBox {
+    display: flex;
+    height: 512px;
+    width: 512px;
+    border: 5px solid #231710;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: #bca193;
+
+}
+
+.gameWindow {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
